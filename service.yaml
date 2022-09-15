@@ -5,7 +5,7 @@ metadata:
   namespace: lil-kube
 spec:
   ports:
-  - port: 6969
+  - port: 8090
     targetPort: 3000
   selector:
     app: my-app
