@@ -6,7 +6,7 @@ spec:
   selector:
     app: my-app
   ports:
-    - port: 6969
+    - port: 8090
       targetPort: 3000
   type: LoadBalancer
 
